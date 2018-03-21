@@ -17,6 +17,15 @@
     "videojs",
     "videojs-plugin"
   ],
+  "files": [
+    "README.md",
+    "dist/",
+    "grunt/",
+    "index.html",
+    "src/",
+    "Gruntfile.js",
+    "package.json"
+  ],
   "author": "Carey Hinoki <carey.hinoki@gmail.com> (http://www.careyhinoki.me/)",
   "license": "MIT",
   "devDependencies": {
