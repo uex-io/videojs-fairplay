@@ -26,7 +26,8 @@
     "index.html",
     "src/",
     "Gruntfile.js",
-    "package.json"
+    "package.json",
+    ".eslintrc.yml"
   ],
   "author": "Carey Hinoki <carey.hinoki@gmail.com> (http://www.careyhinoki.me/)",
   "license": "MIT",
