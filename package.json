@@ -18,6 +18,7 @@
     "videojs-plugin"
   ],
   "files": [
+    "LICENSE",
     "README.md",
     "webpack/",
     "dist/",
