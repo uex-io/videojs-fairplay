@@ -156,9 +156,9 @@ class Html5Fairplay {
   onRequestError(request, errorType = ERROR_TYPE.UNKNOWN) {
     this.log('onRequestError()');
 
-    const errorMessage = `${errorType} - DRM: com.apple.fps.1_0 update, 
-      XHR status is '${request.statusText}(${request.status})', expected to be 200. 
-      readyState is '${request.readyState}'. 
+    const errorMessage = `${errorType} - DRM: com.apple.fps.1_0 update,
+      XHR status is '${request.statusText}(${request.status})', expected to be 200.
+      readyState is '${request.readyState}'.
       Response is ${this.getErrorResponse(request.response)}`;
 
     this.player_.error({
@@ -315,7 +315,7 @@ videojs.fairplaySourceHandler.canPlayType = function canPlayType(type) {
 };
 
 if (window.MediaSource) {
-  videojs.getComponent('Html5').registerSourceHandler(videojs.fairplaySourceHandler(), 0);
+  videojs.getTech('Html5').registerSourceHandler(videojs.fairplaySourceHandler(), 0);
 }
 
 videojs.Html5Fairplay = Html5Fairplay;
